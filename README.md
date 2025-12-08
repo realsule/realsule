@@ -5,7 +5,7 @@ I love clean code, simple UI, and turning ideas into things that actually work.
 
 ---
 
-## 🛠️ Skills & Tools
+### Skills 
 
 ### 💻 Development
 <p align="left">
