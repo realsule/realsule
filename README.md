@@ -1,6 +1,6 @@
 ### Hey, I'm $ule 👋
 
-I'm a junior developer focused on building real projects, improving every day, and growing my skills in software engineering, design, and creative tech.  
+I'm a Software Developer focused on building real projects, improving every day, and growing my skills in software engineering, design, and creative tech.  
 I love clean code, simple UI, and turning ideas into things that actually work.
 
 ---
