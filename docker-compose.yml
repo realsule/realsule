@@ -1,0 +1,15 @@
+# Convenience wrapper around `docker build` + `docker run`. Compose
+# automatically loads a .env file from this same directory and makes its
+# variables available for substitution below -- so `cp .env.example .env`
+# and setting VITE_ADMIN_PASSWORD there is enough; no need to also pass
+# --build-arg by hand (that's the plain-Docker path, documented in
+# README.md as the alternative to this file).
+services:
+  portfolio:
+    build:
+      context: .
+      args:
+        VITE_ADMIN_PASSWORD: ${VITE_ADMIN_PASSWORD:-changeme123}
+    ports:
+      - "8080:80"
+    restart: unless-stopped
